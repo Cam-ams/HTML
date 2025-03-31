@@ -1,0 +1,68 @@
+body {
+    background-color: #b3dbe6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.controller {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 150px;
+    border: 10px solid black;
+    position: relative;
+}
+
+.d-pad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+.d-pad-button {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.connector {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 50px;
+}
